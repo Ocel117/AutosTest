@@ -1,5 +1,3 @@
-import javafx.animation.FadeTransition;
-
 public class Autest {
     public static void main (String[] args){
         System.out.println("Tenemos los siguientes Autos\n\n");
