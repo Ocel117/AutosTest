@@ -17,7 +17,7 @@ Trabajo de muestra para prueba basica de Java
 | + marca:String    |
 | + color:String    |
 |-----------------------------------------|
-| +Direccion:(int izquierda, int derecha) |
-| + Freno:(boolean chino) |
-| +Caracteristicas:(String auto)|
-| + Ubicacion:(String lugar)|
+| + direccion:(int , int)   |
+| + freno:(boolean)         |
+| + caracteristicas:(String)|
+| + ubicacion:(String)|
