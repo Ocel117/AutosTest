@@ -1,4 +1,6 @@
 public class Auto{
+    
+    // Atributos
     public  int puertas;
     public String noPlaca;
     public float velocidad;
@@ -6,18 +8,19 @@ public class Auto{
     public String marca;
     public String color;
 
-    public void Direccion(int derecha, int izquierda){
+    // Metodos
+    public void direccion(int derecha, int izquierda){
         System.out.println("Lado derecho: "+derecha+"\nLado izquierdo: "+izquierda+"\n");
     } 
-    public void Freno(boolean chino){
+    public void freno(boolean chino){
         System.out.println("El freno esta activo? " + chino+"\n");
     }
     String X = "Algo";
-    public void Caracteristicas(String auto){
+    public void caracteristicas(String auto){       //Metodo para impresion de atributos incluyendo tipo de Auto
         
-        if (faros == true){
-            X = "encendido";
-        }
+        if (faros == true){             // >>>Integracion de condicional para
+            X = "encendido";                  // saber si lo faros estan encendidos
+        }                                     // o apagados
         else{
             X = "apagado";
         }
@@ -32,7 +35,7 @@ public class Auto{
         System.out.println("Color: " + color);
         System.out.println("\n");
     }
-    public void Ubicacion(String lugar){
+    public void ubicacion(String lugar){
         System.out.println("Usted esta perdido en: " + lugar+"\n");
     }
     

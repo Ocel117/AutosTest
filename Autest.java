@@ -12,7 +12,7 @@ public class Autest {
         compactos.marca = "Ford";
         compactos.color = "Negro";
 
-        compactos.Caracteristicas("Ford FIGO");
+        compactos.caracteristicas("Ford FIGO");
 
         carreras.puertas = 2;
         carreras.noPlaca = "OFHISU89-7Y23E23";
@@ -21,7 +21,7 @@ public class Autest {
         carreras.marca = "Mercedez Benz";
         carreras.color = "Rojo";
 
-        carreras.Caracteristicas("300 SL (M.1952)");
+        carreras.caracteristicas("300 SL (M.1952)");
 
         combertibles.puertas = 4;
         combertibles.noPlaca = "FHGBNIF-FGYH78F";
@@ -30,8 +30,8 @@ public class Autest {
         combertibles.marca = "Toyota";
         combertibles.color = "Rosa";
 
-        combertibles.Caracteristicas("Mr2 Spyder");
-        combertibles.Direccion(15, 45);
-        combertibles.Ubicacion("Narnia");
+        combertibles.caracteristicas("Mr2 Spyder");
+        combertibles.direccion(15, 45);
+        combertibles.ubicacion("Narnia");
     }    
 }
