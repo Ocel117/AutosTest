@@ -4,5 +4,5 @@ Trabajo de muestra para prueba basica de Java
 - Deportivos/carreras
 - Combertibles
 - Compactos
+- Todoterreno
 
-(Desarrollo de metodos muestra de `Ubicacion` en combertible como comprobacion)
