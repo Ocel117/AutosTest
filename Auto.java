@@ -42,7 +42,6 @@ public class Auto{
         System.out.println("Color: " + color);
         System.out.println("No. de cilindros: " + cilindros);
         System.out.println("");
-        
     }
         //La ubicacion es para burlarse de la persona que esta perdida y dejarla a su suerte
     public void ubicacion(String lugar){
