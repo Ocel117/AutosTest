@@ -11,9 +11,6 @@ public class Auto{
     public boolean faros;
 
     // Metodos
-    public void direccion(int derecha, int izquierda){
-        System.out.println("Lado derecho: "+derecha+"\nLado izquierdo: "+izquierda+"\n");
-    } 
     public void freno(boolean chino){
         System.out.println("El freno esta activo? " + chino+"\n");
     }
@@ -26,7 +23,7 @@ public class Auto{
         else{
             X = "apagado";
         }
-        System.out.println("\n\n\n");
+        System.out.println("\n");
         System.out.println("El auto es: " + auto);
         System.out.println("\n");
         System.out.println("No. de puertas: " + puertas);
@@ -44,7 +41,7 @@ public class Auto{
         System.out.println("Usted esta perdido en: " + lugar+"\n");
     }
         //Tipo de auto ejemplo: deportivo, todoterreno, etc.
-    plublic void autoTipo(String tipo){
+    public void autoTipo(String tipo){
         System.out.println("Ël auto es: " + tipo + "\n");
     }
     
