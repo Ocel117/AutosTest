@@ -1,15 +1,63 @@
 public class Auto{
     
     // Atributos
-    public  int puertas;
-    public String noPlaca;
-    public float velocidad;
-    public int cilindros;
-    public String marca;
-    public String color;
-    public int llantas;
-    public boolean faros;
+    private int puertas;
+    private String noPlaca;
+    private float velocidad;
+    private int cilindros;
+    private String marca;
+    private String color;                                                                                                                                                                              
+    private boolean faros;
+    private int llantas;
 
+    public void setPuertas (int puer){
+        this.puertas = puer;
+    }
+    public void getPuertas() {
+        System.out.println(puertas);
+    }
+    public void setPlaca(String placa) {
+        this.noPlaca = placa;
+    }
+    public String getPlaca() {  //Este metodo del atributo se comporta como getPuertas al tener una funcion de retorno
+        return noPlaca;
+    }
+    public void setVelocidad(float vel) {
+        this.velocidad = vel;
+    }
+    public float getVelocidad() {  
+        return velocidad;
+    }
+    public void setCilindros(int cil) {
+        this.cilindros = cil;
+    }
+    public float getCilindros() {  
+        return cilindros;
+    }
+    public void setMarca(String marc) {
+        this.marca = marc;
+    }
+    public String getMarca() {  
+        return marca;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public String getColor() {  
+        return color;
+    }
+    public void setFaros(boolean far) {
+        this.faros = far;
+    }
+    public boolean getFaros() {  
+        return faros;
+    }
+    public void setLlantas(int llan) {
+        this.llantas = llan;
+    }
+    public int getLlantas() {  
+        return llantas;
+    }
     // Metodos
     public void automatico(boolean chino){
         String aut = "";

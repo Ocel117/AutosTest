@@ -5,64 +5,64 @@ public class Autest {
         Auto compactos = new Auto();
         Auto carreras = new Auto();
         Auto todoterreno = new Auto();
-        Auto combertibles = new Auto();
+        Auto convertibles = new Auto();
         
     
 
-        compactos.puertas = 2;
-        compactos.llantas = 4;
-        compactos.noPlaca = "TGYU567-8567FTY";
-        compactos.velocidad = 180;
-        compactos.cilindros = 4;
-        compactos.faros = true;
-        compactos.marca = "Ford";
-        compactos.color = "Negro";
+        compactos.setPuertas(2);
+        compactos.setLlantas(4);
+        compactos.setPlaca("TGYU567-8567FTY");
+        compactos.setVelocidad (180);
+        compactos.setCilindros(4);
+        compactos.setFaros(true);
+        compactos.setMarca("Ford");
+        compactos.setColor("Negro");
         
         compactos.caracteristicas("Ford FIGO");
-        carreras.autoTipo("Compacto-Chico");
-        carreras.ubicacion("Narnia");
-        carreras.automatico(true);
+        compactos.autoTipo("Compacto-Chico");
+        compactos.ubicacion("Narnia");
+        compactos.automatico(true);
         
         
-        carreras.puertas = 2;
-        carreras.llantas = 4;
-        carreras.noPlaca = "OFHISU89-7Y23E23";
-        carreras.velocidad = 300;
-        carreras.cilindros = 6;
-        carreras.faros = false;
-        carreras.marca = "Mercedez Benz";
-        carreras.color = "Rojo";
+        carreras.setPuertas(2);
+        carreras.setLlantas(4);
+        carreras.setPlaca("OFHISU89-7Y23E23");
+        carreras.setVelocidad (300);
+        carreras.setCilindros(6);
+        carreras.setFaros(false);
+        carreras.setMarca("Mercedez Benz");
+        carreras.setColor("Rojo");
         
         carreras.caracteristicas("300 SL (M.1952)");
         carreras.ubicacion("Narnia");
         carreras.autoTipo("Deportivo");
         carreras.automatico(false);
 
-        combertibles.puertas = 4;
-        combertibles.llantas = 4;
-        combertibles.noPlaca = "FHGBNIF-FGYH78F";
-        combertibles.velocidad = 180;
-        combertibles.cilindros = 4;
-        combertibles.faros = true;
-        combertibles.marca = "Toyota";
-        combertibles.color = "Rosa";
+        convertibles.setPuertas(4);
+        convertibles.setLlantas(4);
+        convertibles.setPlaca("FHGBNIF-FGYH78F");
+        convertibles.setVelocidad (1800);
+        convertibles.setCilindros(4);
+        convertibles.setFaros(true);
+        convertibles.setMarca("Toyota");
+        convertibles.setColor("Rosa");
         
-        combertibles.caracteristicas("Mr2 Spyder");
-        carreras.automatico(false);
-        combertibles.ubicacion("Narnia");
-        combertibles.autoTipo("Combertible");
+        convertibles.caracteristicas("Mr2 Spyder");
+        convertibles.automatico(false);
+        convertibles.ubicacion("Narnia");
+        convertibles.autoTipo("Combertible");
         
-        todoterreno.puertas = 4;
-        todoterreno.llantas = 6;
-        todoterreno.noPlaca = "KNGBNLP-LGYO78F";
-        todoterreno.velocidad = 220;
-        todoterreno.cilindros = 8;
-        todoterreno.faros = true;
-        todoterreno.marca = "Mercedes Benz";
-        todoterreno.color = "amarillo";
+        todoterreno.setPuertas(4);
+        todoterreno.setLlantas(6);
+        todoterreno.setPlaca("KNGBNLP-LGYO78F");
+        todoterreno.setVelocidad (220);
+        todoterreno.setCilindros(8);
+        todoterreno.setFaros(true);
+        todoterreno.setMarca("Mercedes Benz");
+        todoterreno.setColor("amarillo");
        
         todoterreno.caracteristicas("Mansory");
-        carreras.automatico(true);
+        todoterreno.automatico(true);
         todoterreno.ubicacion("Narnia");
         todoterreno.autoTipo("Todoterreno");
     }    
